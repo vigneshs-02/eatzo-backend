@@ -35,11 +35,12 @@ public class SecurityConfig {
         // ✅ Allow React frontend
         config.setAllowedOrigins(
            List.of(
-    "http://localhost:5173",
-    "http://localhost:5174",
-    "https://eatzo-fullstack-app.vercel.app",
-    "https://eatzo-admin.vercel.app"
-));
+        "http://localhost:5173",
+        "http://localhost:5174",
+        "https://eatzo-fullstack-app-uyr2.vercel.app",
+        "https://eatzo-admin.vercel.app",
+        "https://eatzo-fullstack-app.vercel.app"
+           ));
 
         // ✅ Allow all HTTP methods
         config.setAllowedMethods(
